@@ -1,0 +1,302 @@
+body{font-family: "Poppins", sans-serif;
+ background-image: url('bg-intro-mobile.png');
+   background-size: cover;
+   background-color: hsl(0,100%, 74%);
+}
+.box-2{
+    padding-top: 20px;
+}
+
+.box-1{ padding-top: 20%;
+  text-align: center;
+    color:white;
+    font-size:18px;
+}
+.box-2 .trial {
+    display: flex;
+    justify-content: center;
+}
+.box-2 .content{justify-content: center;
+    display: flex;
+}
+.trial button{
+    border-radius:10px ;
+        background-color: hsl(248, 32%, 49%);
+        border:none;
+        color:white;
+     width: 350px;
+        height: 80px
+
+}
+.content{
+    padding-top: 30px;
+
+}
+.try{
+    font-size:16px ;
+}
+span{
+    font-size:13px ;
+}
+
+.input{ 
+    background-color: white;
+    border-radius:20px ;
+    width: 350px;
+}
+.name-content{ 
+    padding-top:30px ;
+  padding-left: 20px;
+}
+.name{ height: 40px;
+    border-radius:9px;
+    width: 280px;
+    padding-left: 20px;
+    border-color: hsl(246, 25%, 77%)
+}
+.last-content{ padding-left: 20px;
+    padding-top:17px;
+}
+.Last-name{ height: 40px;
+    border-radius:9px;
+    width: 280px;
+    padding-left: 20px;
+    border-color: hsl(246, 25%, 77%)
+}
+.email-content{padding-left: 20px;
+    padding-top:17px;
+}
+.email{ height: 40px;
+    border-radius:9px;
+    width: 280px;
+    padding-left: 20px;
+    border-color: hsl(246, 25%, 77%)
+}
+.password{ height: 40px;
+    border-radius:9px;
+    width: 280px;
+    padding-left: 20px;
+    border-color: hsl(246, 25%, 77%);
+}
+.password-content{ padding-left: 20px;
+    padding-top:17px; 
+}
+.freetrial{ height: 40px;
+    border-radius:9px;
+    width: 300px;
+    padding-left: 20px;
+    background-color: hsl(154, 59%, 51%);
+}
+.click{ 
+    font-size:12px ;
+    padding-bottom: 30px;
+}
+.Free-trial{padding-left: 20px;
+    padding-top:20px ;
+}
+.terms{
+    color:red ;
+}
+.error-message{ font-size: 10.9px;
+    color: red;
+    padding-left: 160px;
+  display: none;
+}
+.error-message3{ font-size: 10.9px;
+    color: red;
+    padding-left: 160px;
+  display: none;
+}
+.error-message2{ font-size: 10.9px;
+    color: red;
+    padding-left: 160px;
+  display: none;
+}
+.show-error2{
+    display:block;
+}
+.error-message4{ font-size: 10.9px;
+    color: red;
+    padding-left: 160px;
+  display: none;
+}
+.icon{ 
+    position: relative;
+     top:-35px;
+     left: 260px;
+    display: none;
+}
+.icon2{ 
+    position: relative;
+     left: 260px;
+     top: -35px;
+    display: none;
+}
+.icon3{ 
+    position: relative;
+     left: 260px;
+     top: -35px;
+    display: none;
+}
+.icon4{ 
+    position: relative;
+     left: 260px;
+     top: -35px;
+    display: none;
+}
+
+
+
+
+  
+    @media screen and (min-width: 890px) {
+body{font-family: "Poppins", sans-serif;
+
+    background-image: url('bg-intro-desktop.png');
+   background-size: cover;
+   background-color: hsl(0,100%, 74%);
+}
+.box-1{ padding-top: 160px;
+    color: white;
+    padding-left: 90px;
+    font-size: 19px;
+    text-align: left;
+}
+
+.box{
+    display:grid;
+    grid-template-columns:  5fr 6fr;
+}
+.box-2{ 
+    padding-top: 50px;
+}
+.trial button{ border-radius:10px ;
+    background-color: hsl(248, 32%, 49%);
+    border:none;
+    color:white;
+    width: 350px;
+    
+   }
+
+.trial{
+    padding-right: 85px;
+}
+.name-content{
+    padding-top:30px ;
+}
+.name{ height: 40px;
+    border-radius:9px;
+    width: 280px;
+    padding-left: 20px;
+    border-color: hsl(246, 25%, 77%)
+}
+.try{
+    font-size:16px ;
+}
+span{
+    font-size:13px ;
+}
+.input{ 
+    background-color: white;
+    border-radius:20px ;
+  
+}
+.content{width: 450px;
+    padding-top: 20px;
+    padding-left: 90px;
+}
+.last-content{ 
+    padding-top:17px;
+}
+.Last-name{ height: 40px;
+    border-radius:9px;
+    width: 280px;
+    padding-left: 20px;
+    border-color: hsl(246, 25%, 77%)
+}
+.email-content{
+    padding-top:17px;
+}
+.email{ height: 40px;
+    border-radius:9px;
+    width: 280px;
+    padding-left: 20px;
+    border-color: hsl(246, 25%, 77%)
+}
+.password{ height: 40px;
+    border-radius:9px;
+    width: 280px;
+    padding-left: 20px;
+    border-color: hsl(246, 25%, 77%);
+}
+.password-content{
+    padding-top:17px; 
+}
+.freetrial{ height: 40px;
+    border-radius:9px;
+    width: 309px;
+    padding-left: 20px;
+    color:white;
+    border: none;
+    background-color: hsl(154, 59%, 51%);
+}
+.click{ text-align: center;
+    font-size:12px ;
+    padding-bottom: 20px;
+}
+.Free-trial{
+    padding-top:14px ;
+}
+.terms{
+    color:red ;
+}
+.error-message{ font-size: 10.9px;
+    color: red;
+    padding-left: 180px;
+  display: none;
+}
+.error-message3{ font-size: 10.9px;
+    color: red;
+    padding-left: 180;
+  display: none;
+}
+.error-message2{ font-size: 10.9px;
+    color: red;
+    padding-left: 180px;
+  display: none;
+}
+.show-error2{
+    display:block;
+}
+.error-message4{ font-size: 10.9px;
+    color: red;
+    padding-left: 160px;
+  display: none;
+}
+
+
+.icon{ 
+    position: relative;
+     left: 265px;
+     top: -35px;
+    display: none;
+}
+.icon2{ 
+    position: relative;
+     left: 265px;
+     top: -35px;
+    display: none;
+}
+.icon3{ 
+    position: relative;
+     left: 265px;
+     top: -35px;
+    display: none;
+}
+.icon4{ 
+    position: relative;
+     left: 265px;
+     top: -35px;
+    display: none;
+}
+}
