@@ -149,7 +149,7 @@ span{
 
 
   
-    @media screen and (min-width: 890px) {
+    @media screen and (min-width: 1400px) {
 body{font-family: "Poppins", sans-serif;
 
     background-image: url('bg-intro-desktop.png');
